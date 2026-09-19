@@ -17,7 +17,7 @@ formulario.addEventListener("submit", async (event) => {
 
     try {
         const respuesta = await fetch(
-            "http://localhost:3000/api/usuarios/registro",
+            "http://localhost:5500/api/usuarios/registro",
             {
                 method: "POST",
                 headers: {

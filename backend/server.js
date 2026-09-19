@@ -24,8 +24,8 @@ app.get("/", (req, res) => {
     });
 });
 
-const PORT = 3000;
+const PORT = 5500;
 
 app.listen(PORT, () => {
-    console.log('Servidor ejecutándose en http://localhost:${PORT}');
+    console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
 });

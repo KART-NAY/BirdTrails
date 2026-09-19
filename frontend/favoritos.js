@@ -103,7 +103,7 @@ async function cargarFavoritos(usuarioId) {
     try {
 
         const respuesta = await fetch(
-           ` http://localhost:3000/api/favoritos?usuarioId=${usuarioId}`
+           ` http://localhost:5500/api/favoritos?usuarioId=${usuarioId}`
         );
 
         const favoritos = await respuesta.json();

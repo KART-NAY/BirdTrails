@@ -18,7 +18,7 @@ botonesFavorito.forEach((boton) => {
         try {
 
             const respuesta = await fetch(
-                "http://localhost:3000/api/favoritos",
+                "http://localhost:5500/api/favoritos",
                 {
                     method: "POST",
 
